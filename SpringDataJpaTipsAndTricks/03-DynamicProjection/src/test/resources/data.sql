@@ -1,0 +1,1 @@
+INSERT INTO book (id, publishing_date, title, version) VALUES (1, '2017-04-04', 'Hibernate Tips', 0);
