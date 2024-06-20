@@ -63,7 +63,7 @@ class TestKeepAssociationOrder {
 		assertEquals("Author 2", authors[0].getFirstName());
 		assertEquals("Author 1", authors[1].getFirstName());
 		for (Author a : authors) {
-			log.info(a.getLastName() + ", id: " + a.getId());
+			log.info(a.getFirstName() + ", id: " + a.getId());
 		}
 	}
 
